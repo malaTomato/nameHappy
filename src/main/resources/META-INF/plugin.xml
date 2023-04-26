@@ -27,4 +27,10 @@
     <extensions defaultExtensionNs="com.intellij">
 
     </extensions>
+    <actions>
+        <action id="malatomato.searchName" class="com.malatomato.namehappy.action.SearchNameAction" text="searchName"
+                description="input your variable name">
+            <add-to-group group-id="ActivateToolWindowActions" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>
